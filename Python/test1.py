@@ -71,7 +71,7 @@ You won"
     if guess not in word:  
  
      # turns counter decreases with 1 (now 9)
-        turns -= 1        
+        turns += 1        
  
     # print wrong
         print "Wrong
