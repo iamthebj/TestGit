@@ -1,4 +1,3 @@
-import java.io.*;  
 public class FileDemo {  
     public static void main(String[] args) {  
   
@@ -12,6 +11,9 @@ public class FileDemo {
         } catch (IOException e) {  
             e.printStackTrace();  
         }  
-  
+  System.out.print("This is a really long " +
+            "string that appears on two lines.");
+        
+        System.out.print;
     }  
 }  
