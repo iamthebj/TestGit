@@ -1,17 +1,12 @@
 <script>  
-var address=  
-{  
-company:"Javatpoint",  
-city:"Noida",  
-state:"UP",  
-fullAddress:function()  
-{  
-return this.company+" "+this.city+" "+this.state;  
-}  
-};  
-  
-  
-var fetch=address.fullAddress();  
-document.writeln(fetch);  
+function round(n, upperBound, lowerBound){
+  if(n > upperBound) || (n < lowerBound){
+    throw 'Number ' + String(n) + ' is more than ' + String(upperBound) + ' or less than ' + String(lowerBound);
+  }else if(n < ((upperBound + lowerBound)/2)){
+    return lowerBound;
+  }else{
+    return upperBound;
+  }
+} // SyntaxError: expected expression, got '||'
   
 </script>  
