@@ -1,0 +1,62 @@
+linters:
+    # Python
+    flake8:
+    
+    pep8:
+        ignore: 'W28'
+        max-line-length: 120
+        
+    py3k:
+      ignore: 'W1618,W1655'
+      ignore-patterns: 'generated/.*'
+    
+    # JavaScript
+    jshint:
+    
+    eslint:
+        # config: './eslint.config'
+        
+    # CSS
+    csslint:
+    
+    # Java
+    checkstyle:
+        config: ./checkstyle.xml
+        
+    # PHP
+    phpcs:
+      standard: 'PSR2'
+      exclude: 'Generic.Files.LineLength,PSR2.Files.EndFileNewline'
+      ignore: 'tests/fixtures/generated/*'
+      extensions: 'php,ctp'tab_width: 4
+      
+    phpmd:
+      ruleset: cleancode,codesize
+      
+    # GO
+    golint:
+        min_confidence: 0.85
+        ignore:
+            - 'exported function \w+ should have comment'
+    
+    # Android
+    ktlint:
+        android: true
+     
+    # Ruby
+    rubocop:
+        display_cop_names: true
+    
+    # YAML
+    yamllint:
+        #config: ./yamllint.conf
+        
+    # Swift
+    swiftlint:
+    
+    
+
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'webroot/bower_components/*'
