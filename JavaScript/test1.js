@@ -13,5 +13,6 @@ return this.company+" "+this.city+" "+this.state;
   
 var fetch=address.fullAddress();  
 document.writeln(fetch);  
+document.write("JavaScript is not Java");
   
 </script>  
