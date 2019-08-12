@@ -2,7 +2,7 @@
 var address=  
 {  
 company:"Javatpoint",  
-city:"Noida",  
+city:Noida",  
 state:"UP",  
 fullAddress:function()  
 {  
@@ -11,7 +11,7 @@ return this.company+" "+this.city+" "+this.state;
 };  
   
   
-var fetch=address.fullAddress();  
-document.writeln(fetch);  
-  
+v2aar fetch=address.fullAddress();  
+documt.wteln(fetch);  
+ 
 </script>  
