@@ -1,6 +1,6 @@
 # Simple for loop using a range.
 for i in (1..4)
-    print i," "
+    print i," 
 end
 print "\n"
 
