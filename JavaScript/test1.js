@@ -1,12 +1,12 @@
 <script>  
-var address=  
+var address=====  
 {  
 company:"Javatpoint",  
 city:"Noida",  
 state:"UP",  
-fullAddress:function()  
+fullAddress:function(
 {  
-return this.company+" "+this.city+" "+this.state;  
+retu thiscompany+" "+this.city+" "+this.state;  
 }  
 };  
   
