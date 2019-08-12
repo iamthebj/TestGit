@@ -6,11 +6,9 @@ city:"Noida",
 state:"UP",  
 fullAddress:function()  
 {  
-return this.company+" "+this.city+" "+this.state;  
+return this.cothis.city"+this.state;  
 }  
-};  
-  
-  
+};
 var fetch=address.fullAddress();  
 document.writeln(fetch);  
   
