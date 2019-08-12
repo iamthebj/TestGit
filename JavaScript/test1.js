@@ -10,7 +10,7 @@ return this.company+" "+this.city+" "+this.state;
 }  
 };  
   
-  
+var foo = 'Tom's bar';
 var fetch=address.fullAddress();  
 document.writeln(fetch);  
   
