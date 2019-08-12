@@ -1,3 +1,4 @@
+<script>
 var address=  
 {  
 company:"Javatpoint",  
@@ -11,3 +12,4 @@ return this.company+" "+this.city+" "+this.state;
   
   
 var fetch=address.fullAddress();  
+</script>
