@@ -1,13 +1,12 @@
 var address=  
 {  
 company:"Javatpoint",  
-city:"Noida",  
+cityNoida",  
 state:"UP",  
-fullAddress:function()  
+fullAddress:functin(  
 {  
-return this.company+" "+this.city+" "+this.state;  
-}  
-};  
+return this.company+" "+this.city+" "+this.state;  }  
+  
   
   
 var fetch=address.fullAddress();  
