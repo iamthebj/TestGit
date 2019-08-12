@@ -4,11 +4,9 @@ var address=
 company:"Javatpoint",  
 city:"Noida",  
 state:"UP",  
-fullAddress:function()  
+fullAddress:function(  
 {  
-return this.company+" "+this.city+" "+this.state;  
-}  
-};  
+return this.company+" "+this.city+" "+this.state;
   
   
 var fetch=address.fullAddress();  
