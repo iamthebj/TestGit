@@ -1,17 +1,3 @@
-<script>  
-var address=  
-{  
-company:"Javatpoint",  
-city:"Noida",  
-state:"UP",  
-fullAddress:function()  
-{  
-return this.company+" "+this.city+" "+this.state;  
-}  
-};  
-  
-  
-var fetch=address.fullAddress();  
-document.writeln(fetch);  
-  
-</script>  
+var price1 = 5;
+var price2 = 6
+var total = price1 + price2;
