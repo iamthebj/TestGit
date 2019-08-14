@@ -25,7 +25,7 @@ guesses = ''
 turns = 10
 
 # Create a while loop
-
+while True:
 #check if the turns are more than zero
 while turns > 0:         
 
