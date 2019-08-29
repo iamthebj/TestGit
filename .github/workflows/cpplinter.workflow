@@ -1,5 +1,5 @@
 workflow "C++ Lint" {
-  on = "push"
+  on = "pull_request"
   resolves = ["lint-action"]
 }
 
