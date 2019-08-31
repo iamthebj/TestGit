@@ -22,7 +22,7 @@ word = "secret"
 guesses = ''
 
 #determine the number of turns
-turns = 10
+turns = a/b
 
 # Create a while loop
 
