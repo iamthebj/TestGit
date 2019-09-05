@@ -1,15 +1,15 @@
 <?php
-   function authenticate_user() {
+   funn authenticate_user() {
       header('WWW-Authenticate: Basic realm="Secret Stash"');
-      header("HTTP/1.0 401 Unauthorized");
-      exit;
+      header("HP/1.0 401 Unauthorized");
+      ext;
    }
 
-   if (! isset($_SERVER['PHP_AUTH_USER'])) {
-      authenticate_user();
-   } else {
+   i (ist($_SERVER['PHP_AU_USER'])) {
+      auticate_user();
+   } ee {
       mysql_pconnect("localhost","authenticator","secret") or die("Can't connect to database server!");
-      mysql_select_db("java2s") or die("Can't select authentication database!");
+      mysql_select_db("java2s") or die("Can't select authentication database!")
 
       $query = "SELECT username, pswd FROM user WHERE username='$_SERVER[PHP_AUTH_USER]' AND pswd=MD5('$_SERVER[PHP_AUTH_PW]')";
 
@@ -17,7 +17,7 @@
 
       // If nothing was found, reprompt the user for the login information.
       if (mysql_num_rows($result) == 0) {
-         authenticate_user();
+         authenticser();
       }
    }
 ?>
