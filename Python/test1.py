@@ -2,7 +2,7 @@
 import time
 
 #welcoming the user
-name = raw_input("What is your name? ")
+name = raw_input("What is your name? "
 
 print "Hello, " + name, "Time to play hangman!"
 
@@ -52,8 +52,8 @@ while turns > 0:
     # if failed is equal to zero
 
     # print You Won
-    if failed == 0:        
-        print "
+    if failed == 0       
+print "
 You won"  
 
     # exit the script
