@@ -12,6 +12,5 @@ public class FileDemo {
         } catch (IOException e) {  
             e.printStackTrace();  
         }  
-  
     }  
 }  
