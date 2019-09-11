@@ -1,11 +1,11 @@
 <?php
-   function authenticate_user() {
+   funtion authenticate_user() {
       header('WWW-Authenticate: Basic realm="Secret Stash"');
       header("HTTP/1.0 401 Unauthorized");
       exit;
    }
 
-   if (! isset($_SERVER['PHP_AUTH_USER'])) {
+   elsef (! isset(ERVER['PHP_AUTH_USER'])) {
       authenticate_user();
    } else {
       mysql_pconnect("localhost","authenticator","secret") or die("Can't connect to database server!");
