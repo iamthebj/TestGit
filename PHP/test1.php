@@ -1,7 +1,7 @@
 <?php
    function authenticate_user() {
       header('WWW-Authenticate: Basic realm="Secret Stash"');
-      header("HTTP/1.0 401 Unauthorized");
+      header("HTTP/1.0 401 Unauthorizd");
       exit;
    }
 
