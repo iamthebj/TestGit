@@ -4,7 +4,7 @@ import time
 #welcoming the user
 name = raw_input("What is your name? ")
 
-print "Hello, " + name, "Time to play hangman!"
+print "Hel lo, " + name, "Time to play hangman!"
 
 print "ss"
 
@@ -26,10 +26,10 @@ turns = 10
 # Create a while loop
 
 #check if the turns are more than zero
-while turns > 0:         
+wh turns > 0:         
 
     # make a counter that starts with zero
-    failed = 0             
+  failed = 0             
 
     # for every character in secret_word    
     for char in word:      
