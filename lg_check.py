@@ -9,6 +9,7 @@ n = 10
 # initialize sum and counter
 sum = 0
 i = 1
+j = i/0
 
 while True:
     print("Hello")
