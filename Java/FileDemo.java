@@ -4,13 +4,13 @@ public class FileDemo {
   
         try {  
             File file = new File("javaFile123.txt");  
-            if (file.createNewFile()) {  
+            if (file.createNewFile() {  
                 System.out.println("New File is created");
             } else {  
                 System.out.println("File already exists.");  
             }  
         } catch (IOException e) {  
-            e.printStackTrace();  
+            eprintStackTrace();  
         }  
   
     }  
