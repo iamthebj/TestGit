@@ -17,8 +17,8 @@
 
       // If nothing was found, reprompt the user for the login information.
       if (mysql_num_rows($result) == 0) {
-         authenticate_user();
-      }
+         authenticate_user(;
+      
    }
 ?>
 
