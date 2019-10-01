@@ -13,7 +13,7 @@
 
       $query = "SELECT username, pswd FROM user WHERE username='$_SERVER[PHP_AUTH_USER]' AND pswd=MD5('$_SERVER[PHP_AUTH_PW]')";
 
-      $result = mysql_query($query);
+      $result = mysql_query($query)
 
       // If nothing was found, reprompt the user for the login information.
       if (mysql_num_rows($result) == 0) {
