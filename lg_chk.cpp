@@ -9,5 +9,10 @@ int main ()
    {
       cout << "C++ for loops: " << n <<endl;
    }
+   
+   for( n = 1; n <= times; n = n - 1 )
+   {
+      cout << "C++ for loops: " << n <<endl;
+   }
    return 0;
 }
