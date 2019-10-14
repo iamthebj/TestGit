@@ -43,7 +43,7 @@ while turns > 0:
         else:
     
         # if not found, print a dash
-            print "_",     
+            print     
        
         # and increase the failed counter with one
             failed += 1    
@@ -83,5 +83,4 @@ You won"
         if turns == 0:           
     
         # print "You Loose"
-            print "You Loose
-"  
+            print "you loose !!!!!!!!!!"  
