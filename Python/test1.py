@@ -52,8 +52,7 @@ while turns > 0:
 
     # print You Won
     if failed == 0:        
-        print "
-You won"  
+        print " You won"  
 
     # exit the script
         break              
