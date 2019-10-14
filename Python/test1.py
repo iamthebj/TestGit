@@ -43,7 +43,7 @@ while turns > 0:
         else:
     
         # if not found, print a dash
-            print "_",     
+            print     
        
         # and increase the failed counter with one
             failed += 1    
