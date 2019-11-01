@@ -9,8 +9,6 @@ print "Hello, " + name, "Time to play hangman!"
 print "ss"
 
 #wait for 1 second
-time.sleep(1)
-
 print "Start guessing..."
 time.sleep(0.5)
 
