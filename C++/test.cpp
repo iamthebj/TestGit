@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-int main() 
+int main()
 {
-    cout << "Hello, Worlsd!";
-    return 0;
+    int sum = 0;
+    cout << "Enter a positive integer: ";
+    cin >> n;
 }
