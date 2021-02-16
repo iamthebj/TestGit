@@ -6,8 +6,22 @@ public class FileDemo {
             File file = new File("javaFile123.txt");  
             if (file.createNewFile()) {  
                 System.out.println("New File is created");
+                System.out.println("New File is created");
+                                System.out.println("New File is created");
+
             } else {  
                 System.out.println("File already exists.");  
+                                System.out.println("New File is created");
+
+                                System.out.println("New File is created");
+
+                                System.out.println("New File is created");
+
+                                System.out.println("New File is created");
+
+                                System.out.println("New File is created");
+
+                
             }  
         } catch (IOException e) {  
             e.printStackTrace();  
